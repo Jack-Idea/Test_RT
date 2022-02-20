@@ -6,7 +6,7 @@ class AuthModel {
             await t
                 .typeText(pageModel.usernameField, 'German Makarenko')
                 .click(pageModel.submitButton)
-                .typeText(pageModel.passwordFiled, 'test123')
+                .typeText(pageModel.passwordField, 'test123')
                 .click(pageModel.submitButton)
                 .expect(pageModel.username.innerText).eql('German Makarenko');
         }
