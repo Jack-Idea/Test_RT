@@ -4,7 +4,7 @@ class PageModel {
     constructor() {
         this.usernameField = Selector('#username');
         this.submitButton = Selector('input').withAttribute('type', 'submit');
-        this.passwordFiled = Selector('#password');
+        this.passwordField = Selector('#password');
         this.username = Selector('a>.user-info');
         this.createTaskButton = Selector('div>ul>li>div>a').withAttribute('href', 'bug_report_page.php');
         this.categorySelector = Selector('#category_id');
