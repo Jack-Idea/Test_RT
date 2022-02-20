@@ -1,0 +1,7 @@
+{
+  "name": "testrt",
+  "version": "1.0.0",
+  "dependencies": {
+    "testcafe": "^1.18.3"
+  }
+}
